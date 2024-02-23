@@ -1,0 +1,93 @@
+
+body{
+    background-color:  rgb(237, 241, 242);;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+img {
+    width: auto;
+}
+
+.menu{
+   
+    display: grid;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-left: 1fr;
+    margin-right: 1fr;
+}
+.progress {
+    display: grid;
+    place-items: end;
+    padding: 0;
+}
+
+
+.img-progress{
+    
+    width: 250px;
+    height: 6px;
+    background: #999;
+    overflow: hidden;
+}
+
+.text-menu {
+    display: flex;
+    margin-bottom: auto;
+    width: auto;
+}
+
+.text-menu h3 {
+ height: auto;
+ width: 350px;
+ display: flex;
+text-align: center;
+align-items: center;
+margin: 0;
+margin-left: 22px;
+}
+.text-menu p {
+height: auto;
+width: auto;
+margin-left: 52px;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 0;
+}
+.records, .records-1, .records-2 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: auto;
+    margin-left: 26px;
+}
+
+.records h3 {
+display: flex;
+}
+.records p, .records-1 p, .records-2 p {
+    margin-left: 12px;
+    margin-top: 22px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+}
+.Primary-button {
+    width: 180px;
+    height: 40px;
+    border-radius: 2;
+    background: green;
+}
+.Secondary-button{
+    width: 180px;
+    height: 40px;
+    margin-left: 18px;
+    border-radius: 2;
+    background: grey;
+}
