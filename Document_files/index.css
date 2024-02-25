@@ -63,41 +63,39 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
-.old-content {
+/* .button {
     display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+} */
+
+.complete-record {
+    float: left;
+    width: 200px; /* Ancho de cada caja */
+    height: 200px; /* Altura de cada caja (puedes ajustar según sea necesario) */
     
 }
-.old-content p {
-    color: var(--Mid );
-}
-.Caracter {
+.old-content {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: 200px;
-    height: 100px;
-    margin-top: 50px;
 }
-.complete-record,
-.Caracter {
-    flex: 1; /* Toma igual espacio dentro del contenedor */
-    margin-right: 20px; /* Espacio entre los elementos */
+.Caracter{
+    text-align: end;
 }
-.progress {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-}
+/* .progress {
+    display: grid;
+    place-items: end;
+    margin-left: 0;
+    width: 90%;
+} */
+
+/* 
 .img-progress{
     width: 250px;
     height: 6px;
     background: #999; 
-} 
-.buttonn {
-    display: flex;
-    flex-direction: row;
-}
-.Primary-button {
+} */
+/* .Primary-button {
     width: 180px;
     height: 40px;
     border-radius: 2;
@@ -108,6 +106,7 @@ display: flex;
     width: 180px;
     height: 40px;
     margin-left: 18px;
+    border-radius: 2;
     background: var(--Dark);
     border: 0;
-} 
+} */
